@@ -1,0 +1,11 @@
+fixture/
+scripts/
+.git/
+.github/
+*.log
+.env
+.env.*
+.DS_Store
+coverage/
+node_modules/
+PUBLISH.md

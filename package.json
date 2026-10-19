@@ -1,0 +1,42 @@
+{
+  "name": "arch-decision-scout",
+  "version": "0.1.0",
+  "description": "CLI to scan a codebase for architectural decisions (ADRs, decision comments, layering rules) and detect drift",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "arch-decision-scout": "./bin/arch-decision-scout.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "architecture",
+    "adr",
+    "architectural-decisions",
+    "codebase",
+    "drift",
+    "cli",
+    "agent",
+    "ai",
+    "conventions",
+    "static-analysis"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saeedzarbi/arch-decision-scout.git"
+  },
+  "homepage": "https://github.com/saeedzarbi/arch-decision-scout#readme",
+  "bugs": {
+    "url": "https://github.com/saeedzarbi/arch-decision-scout/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node bin/arch-decision-scout.js",
+    "demo": "node bin/arch-decision-scout.js fixture/sample_app",
+    "prepublishOnly": "node scripts/prepublish-check.js"
+  }
+}
